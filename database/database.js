@@ -1,6 +1,6 @@
 const Sequelize= require("sequelize");
-const connection= new Sequelize('blablabla', 'matheussandes', '810401MA',{
-    host:'mysql669.umbler.com',
+const connection= new Sequelize('Guiapress', 'root', '******',{ //preencha com a senha do banco de dados
+    host:'localhost',
     dialect:'mysql',
     timezone: "-03:00"
 });
